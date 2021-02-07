@@ -93030,7 +93030,7 @@ function init() {
   }
 
   kalimba = (0, _instruments.makeKalimba)().instrument;
-  kalimba.volume.value = -12;
+  kalimba.volume.value = -17;
   delay = (0, _instruments.makeKalimba)().delay;
   kalimbaSeq = (0, _instruments.makeKalimba)().seq;
   renderer.setAnimationLoop(function () {
@@ -93088,8 +93088,7 @@ function createRenderer() {
   renderer.setSize(window.innerWidth, window.innerHeight);
   document.body.appendChild(renderer.domElement);
   document.body.appendChild(renderer.domElement);
-} // TODO: add more objects and attach sounds to them
-
+}
 
 function createGeometries() {
   var sphere = new THREE.SphereGeometry(20, 32, 16);
@@ -93385,7 +93384,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53695" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59651" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

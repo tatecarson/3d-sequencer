@@ -87,7 +87,7 @@ function init() {
   }
 
   kalimba = makeKalimba().instrument;
-  kalimba.volume.value = -12;
+  kalimba.volume.value = -17;
   delay = makeKalimba().delay;
   kalimbaSeq = makeKalimba().seq;
 
