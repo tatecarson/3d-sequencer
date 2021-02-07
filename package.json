@@ -13,7 +13,9 @@
     "@gltf-transform/core": "^0.7.4",
     "@gltf-transform/lib": "^0.7.4",
     "animejs": "^3.2.1",
+    "controls": "^0.7.5",
     "dat.gui": "^0.7.7",
+    "instruments": "0.0.1",
     "stats.js": "^0.17.0",
     "three": "^0.121.1",
     "tone": "^14.7.77"
