@@ -153,7 +153,6 @@ function createRenderer() {
   document.body.appendChild(renderer.domElement);
 }
 
-// TODO: add more objects and attach sounds to them
 function createGeometries() {
   const sphere = new SphereGeometry(20, 32, 16);
 
